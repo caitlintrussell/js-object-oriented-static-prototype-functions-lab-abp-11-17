@@ -3,7 +3,7 @@ function IcebreakerResponse(email){
 }
 function BatchCreate(data) {
   return map.data(function(userEmail){
-    return new IcebreakerResponse
+    return new IcebreakerResponse(userEmail)
   })
   
 }
